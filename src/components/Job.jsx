@@ -3,7 +3,7 @@ const Job = (props) => {
   const CssClass = `job ${props.className}`;
 
   return (
-    <div className={CssClass}>
+    <article className={CssClass}>
       <div>
         <h2>{props.title}</h2>
       </div>
@@ -12,7 +12,7 @@ const Job = (props) => {
           {props.contractType} - {props.country} - {props.city}
         </span>
       </div>
-    </div>
+    </article>
   );
 };
 
